@@ -251,9 +251,9 @@ OrtStatusPtr(*&#160;</td><td class="memItemRight" valign="bottom"><b>GetSymbolic
 OrtStatusPtr(*&#160;</td><td class="memItemRight" valign="bottom"><b>GetValueType</b> )(const OrtValue *value, enum ONNXType *out) __attribute__((warn_unused_result))</td></tr>
 <tr class="separator:aa189172fb7e84cfed7ebacd814f69048"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab24bc98b6341a57dcaeacce6a91e481e"><td class="memItemLeft" align="right" valign="top"><a id="ab24bc98b6341a57dcaeacce6a91e481e"></a>
-OrtStatusPtr(*&#160;</td><td class="memItemRight" valign="bottom"><b>CreateMemoryInfo</b> )(const char *name1, enum OrtAllocatorType type, int id1, enum <a class="el" href="onnxruntime__c__api_8h.html#ab7805016f4b26871e899a3cf4114ee0d">OrtMemType</a> mem_type1, OrtMemoryInfo **out) __attribute__((warn_unused_result))</td></tr>
+OrtStatusPtr(*&#160;</td><td class="memItemRight" valign="bottom"><b>CreateMemoryInfo</b> )(const char *name1, enum OrtAllocatorType type, int id1, enum OrtMemType mem_type1, OrtMemoryInfo **out) __attribute__((warn_unused_result))</td></tr>
 <tr class="separator:ab24bc98b6341a57dcaeacce6a91e481e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5816f12121fc3a87f6527bf9180b1c0f"><td class="memItemLeft" align="right" valign="top">OrtStatusPtr(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ort_api.html#a5816f12121fc3a87f6527bf9180b1c0f">CreateCpuMemoryInfo</a> )(enum OrtAllocatorType type, enum <a class="el" href="onnxruntime__c__api_8h.html#ab7805016f4b26871e899a3cf4114ee0d">OrtMemType</a> mem_type1, OrtMemoryInfo **out) __attribute__((warn_unused_result))</td></tr>
+<tr class="memitem:a5816f12121fc3a87f6527bf9180b1c0f"><td class="memItemLeft" align="right" valign="top">OrtStatusPtr(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ort_api.html#a5816f12121fc3a87f6527bf9180b1c0f">CreateCpuMemoryInfo</a> )(enum OrtAllocatorType type, enum OrtMemType mem_type1, OrtMemoryInfo **out) __attribute__((warn_unused_result))</td></tr>
 <tr class="separator:a5816f12121fc3a87f6527bf9180b1c0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77c64d7efeb119d9f42faf890c8d3109"><td class="memItemLeft" align="right" valign="top">OrtStatusPtr(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ort_api.html#a77c64d7efeb119d9f42faf890c8d3109">CompareMemoryInfo</a> )(const OrtMemoryInfo *info1, const OrtMemoryInfo *info2, int *out) __attribute__((warn_unused_result))</td></tr>
 <tr class="separator:a77c64d7efeb119d9f42faf890c8d3109"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -263,7 +263,7 @@ OrtStatusPtr(*&#160;</td><td class="memItemRight" valign="bottom"><b>CreateMemor
 OrtStatusPtr(*&#160;</td><td class="memItemRight" valign="bottom"><b>MemoryInfoGetId</b> )(const OrtMemoryInfo *ptr, int *out) __attribute__((warn_unused_result))</td></tr>
 <tr class="separator:ada34b49f7d09ab8fa72503986ccea4fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14dc78590a760f5a7e7e1c580c1b68a6"><td class="memItemLeft" align="right" valign="top"><a id="a14dc78590a760f5a7e7e1c580c1b68a6"></a>
-OrtStatusPtr(*&#160;</td><td class="memItemRight" valign="bottom"><b>MemoryInfoGetMemType</b> )(const OrtMemoryInfo *ptr, <a class="el" href="onnxruntime__c__api_8h.html#ab7805016f4b26871e899a3cf4114ee0d">OrtMemType</a> *out) __attribute__((warn_unused_result))</td></tr>
+OrtStatusPtr(*&#160;</td><td class="memItemRight" valign="bottom"><b>MemoryInfoGetMemType</b> )(const OrtMemoryInfo *ptr, OrtMemType *out) __attribute__((warn_unused_result))</td></tr>
 <tr class="separator:a14dc78590a760f5a7e7e1c580c1b68a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc96faa1d85380e8f41d494a6f9feffc"><td class="memItemLeft" align="right" valign="top"><a id="acc96faa1d85380e8f41d494a6f9feffc"></a>
 OrtStatusPtr(*&#160;</td><td class="memItemRight" valign="bottom"><b>MemoryInfoGetType</b> )(const OrtMemoryInfo *ptr, OrtAllocatorType *out) __attribute__((warn_unused_result))</td></tr>
@@ -763,7 +763,7 @@ OrtStatusPtr(*&#160;</td><td class="memItemRight" valign="bottom"><b>KernelInfoG
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">OrtStatusPtr( * OrtApi::CreateCpuMemoryInfo) (enum OrtAllocatorType type, enum <a class="el" href="onnxruntime__c__api_8h.html#ab7805016f4b26871e899a3cf4114ee0d">OrtMemType</a> mem_type1, OrtMemoryInfo **out) __attribute__((warn_unused_result))</td>
+          <td class="memname">OrtStatusPtr( * OrtApi::CreateCpuMemoryInfo) (enum OrtAllocatorType type, enum OrtMemType mem_type1, OrtMemoryInfo **out) __attribute__((warn_unused_result))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1869,7 +1869,7 @@ Sequence types</h1>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>/Users/nakersha/Develop/code/microsoft/onnxruntime/include/onnxruntime/core/session/<a class="el" href="onnxruntime__c__api_8h_source.html">onnxruntime_c_api.h</a></li>
+<li><a class="el" href="onnxruntime__c__api_8h_source.html">onnxruntime_c_api.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
