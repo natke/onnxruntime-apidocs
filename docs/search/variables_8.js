@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['sessionendprofiling_154',['SessionEndProfiling',['../struct_ort_api.html#a82636bee502c346718d722a6744b2e61',1,'OrtApi']]],
+  ['sessiongetinputcount_155',['SessionGetInputCount',['../struct_ort_api.html#a5fa9b54a4067d64f4ba925d47e8ce744',1,'OrtApi']]],
+  ['sessiongetinputname_156',['SessionGetInputName',['../struct_ort_api.html#a2507e3318a70866be5537080b61ba80a',1,'OrtApi']]],
+  ['sessiongetinputtypeinfo_157',['SessionGetInputTypeInfo',['../struct_ort_api.html#a1c5df062fba05ab2390d78ea53f4abb8',1,'OrtApi']]],
+  ['sessiongetmodelmetadata_158',['SessionGetModelMetadata',['../struct_ort_api.html#a2941e66533d44b21f8236e01d3f8fef6',1,'OrtApi']]],
+  ['sessiongetoutputtypeinfo_159',['SessionGetOutputTypeInfo',['../struct_ort_api.html#a47799cbe420e77eb05967cc38433d7e7',1,'OrtApi']]],
+  ['sessiongetoverridableinitializertypeinfo_160',['SessionGetOverridableInitializerTypeInfo',['../struct_ort_api.html#a821087675e02fe5b43ba5932c0c21da5',1,'OrtApi']]],
+  ['sessiongetprofilingstarttimens_161',['SessionGetProfilingStartTimeNs',['../struct_ort_api.html#a874c1400501cca714deae5eb98dacc0f',1,'OrtApi']]],
+  ['sessionoptionsappendexecutionprovider_5fcuda_162',['SessionOptionsAppendExecutionProvider_CUDA',['../struct_ort_api.html#a2cdc4c48b139ce29df74e96afceb6475',1,'OrtApi']]],
+  ['sessionoptionsappendexecutionprovider_5fopenvino_163',['SessionOptionsAppendExecutionProvider_OpenVINO',['../struct_ort_api.html#a3a8cf104053b4423a0c582b7d91c6fce',1,'OrtApi']]],
+  ['sessionoptionsappendexecutionprovider_5frocm_164',['SessionOptionsAppendExecutionProvider_ROCM',['../struct_ort_api.html#a213e3ca0152f5bb1943b9ed03ea33a63',1,'OrtApi']]],
+  ['sessionoptionsappendexecutionprovider_5ftensorrt_165',['SessionOptionsAppendExecutionProvider_TensorRT',['../struct_ort_api.html#ac47ba35098e5efca8d607557a326f659',1,'OrtApi']]],
+  ['setcurrentgpudeviceid_166',['SetCurrentGpuDeviceId',['../struct_ort_api.html#a73b53e23f320795c150a12d3a89145c0',1,'OrtApi']]],
+  ['setdimensions_167',['SetDimensions',['../struct_ort_api.html#a5fae821d04a8e76f3e01b0be786c7f7d',1,'OrtApi']]],
+  ['setglobaldenormalaszero_168',['SetGlobalDenormalAsZero',['../struct_ort_api.html#a5f46be197faed990c52f2e94d563ef47',1,'OrtApi']]],
+  ['setglobalintraopnumthreads_169',['SetGlobalIntraOpNumThreads',['../struct_ort_api.html#a80fca67b1b45520ef9e0d1b9f7603674',1,'OrtApi']]],
+  ['setglobalspincontrol_170',['SetGlobalSpinControl',['../struct_ort_api.html#a2d3298c67a577c12d9ad45bfe3c856f6',1,'OrtApi']]],
+  ['setlanguageprojection_171',['SetLanguageProjection',['../struct_ort_api.html#a94fd4094f99f1e28d1c1be9d058cbfd0',1,'OrtApi']]]
+];
